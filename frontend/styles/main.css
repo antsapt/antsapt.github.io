@@ -1,0 +1,594 @@
+body {
+  font-family: 'Montserrat';
+}
+
+/* navbar */
+.navbar {
+  background-color: #171717;
+  border-bottom: 1px solid #333;
+  font-size: 18px;
+
+}
+
+/* navbar hal detail */
+.navDetails {
+  background-color: #171717;
+  font-size: 18px;
+}
+
+/*  */
+
+.nav-link {
+  color: white;
+}
+
+.nav-item {
+  margin-right: 20px;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar a span {
+  color: #E63737;
+}
+
+/* jumbotron */
+.jumbotron {
+  background-image: url(../images/assets/jumbotron/jumb.png);
+  background-size: cover;
+  height: 768px;
+  margin-top: -120px;
+  background-position: 50% 50%;
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.jumbotron h1 {
+  font-family: 'Lora';
+  font-size: 45px;
+  font-weight: bold;
+  color: white;
+  margin-top: 300px;
+}
+
+.jumbotron p {
+  color: white;
+  margin-top: 14px;
+  font-size: 20px;
+}
+
+.jumbotron .btn {
+  background-color: #E63737;
+  width: 200px;
+  height: 45px;
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+
+}
+
+
+
+
+/* brands */
+.brands {
+  margin-top: 50px;
+}
+
+.brands .title {
+  font-size: 20px;
+  margin-bottom: 40px;
+  color: #171717;
+}
+
+
+
+/* category */
+.categorys {
+  margin-top: 50px;
+  width: 100%;
+  height: 1080px;
+  background-color: #F2FFF4;
+}
+
+
+
+.categorys .title h3,
+.products .title h3,
+.similar-product .title {
+  font-family: 'Lora';
+  font-size: 28px;
+  font-weight: bold;
+  color: #171717;
+
+
+}
+
+.title p,
+.cart-header p {
+  font-size: 16px;
+  color: #9F9494;
+}
+
+.category {
+  display: block;
+}
+
+.categorys .quote {
+  margin-top: 50px;
+}
+
+.quote h5 {
+  font-size: 16px;
+  color: #171717;
+  font-style: italic;
+  font-weight: 600;
+}
+
+.btn-fluid {
+  position: relative;
+  width: 544px;
+  height: 290px;
+  margin-top: 50px;
+  overflow: hidden;
+}
+
+.btn-fluid img {
+  transform: scale(1);
+  transition: 0.8s ease-in-out;
+}
+
+
+
+.btn-fluid a {
+  position: absolute;
+  top: 50%;
+  bottom: 0;
+  right: 0;
+  left: 37%;
+  background-color: #E63737;
+  width: 150px;
+  height: 45px;
+  color: white;
+  font-size: 18px;
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.btn-fluid:hover a {
+  color: white;
+
+}
+
+/* products */
+.products {
+  margin-top: 50px;
+}
+
+
+
+
+.figure img {
+  width: 260px;
+  height: 260px;
+}
+
+.figure h5 {
+  font-size: 20px;
+  font-weight: 500;
+  color: #171717;
+}
+
+.figure p {
+  font-size: 16px;
+
+}
+
+.figure-img {
+  position: relative;
+  overflow: hidden;
+}
+
+.btn-product {
+
+  display: inline-block;
+  position: absolute;
+  top: 0;
+  bottom: 0px;
+  right: 0;
+  left: 0;
+  transition: .5s;
+}
+
+
+
+.btn-product .ic-krj {
+  width: 48px;
+  height: 45px;
+  background-color: #E63737;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.btn-product img {
+  width: 22px;
+  height: 22px;
+}
+
+.btn-product .viewd {
+  width: 95px;
+  height: 45px;
+  background-color: #F5F5F5;
+  font-size: 12px;
+  line-height: 35px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+/* testimonial */
+.testimonials {
+  margin-top: 50px;
+  background-color: #F5F5F5;
+  height: 276px;
+}
+
+.testimonials h5 {
+  font-size: 16px;
+  color: #171717;
+  font-style: italic;
+
+}
+
+.testimonials figure img {
+  width: 65px;
+  height: 65px;
+  margin: 0 5px 5px 5px;
+}
+
+.testimonials .img-kecil {
+  width: 50px;
+  height: 50px;
+  opacity: 0.6;
+}
+
+.testimonials figure p {
+  margin-top: 5px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* footer */
+.footer {
+  margin-top: 50px;
+  background-color: #393939;
+}
+
+.footer img {
+  margin-bottom: 20px;
+}
+
+.footer p {
+  font-size: 14px;
+  color: #C9C9C9;
+  margin: 8px 0;
+}
+
+.footer h5 {
+  margin: 8px 0 30px 0px;
+  color: #ffffff;
+}
+
+/* .footer hr {
+  margin-top: 50px;
+  border: 1px solid #707070;
+} */
+
+footer {
+  background-color: #393939;
+  margin-top: 0;
+  border-top: 1px solid #707070;
+  padding: 5px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #C9C9C9;
+  margin-top: 16px;
+  padding-bottom: 16px;
+}
+
+/* hal detail */
+
+.breadcrumb {
+  margin-top: 100px;
+  background-color: white;
+  font-size: 16px;
+}
+
+.breadcrumb a {
+  text-decoration: none;
+  color: #171717;
+  font-weight: 600;
+
+}
+
+.breadcrumb-checkout {
+  margin-top: 50px;
+}
+
+
+/* detail product */
+.detail-product img {
+  width: 444px;
+  height: 454px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+
+.product-thumbnail img {
+  width: 80px;
+  height: 80px;
+  cursor: pointer;
+}
+
+.activ {
+  border: 1px solid #E63737;
+}
+
+
+.product-thumbnail {
+  width: 380px;
+  height: 100px;
+  padding: 10px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  margin: auto;
+  /* transform: translateY(-50px); */
+  /* border: 1px solid #707070; */
+}
+
+.detail p {
+  color: #707070;
+}
+
+.btn-detail .btn {
+  width: 276px;
+  height: 45px;
+  display: block;
+  margin: 10px 0;
+}
+
+.btn-cart {
+  background-color: #E63737;
+  color: white !important;
+}
+
+.btn-list {
+  background-color: white;
+  border: 1px solid #E63737;
+}
+
+hr {
+  margin-top: 30px;
+  background-color: #707070;
+}
+
+/* product description */
+.product-description {
+  height: 350px;
+  background-color: #F6F8FC;
+  margin-bottom: 130px;
+}
+
+.product-description .tab-content {
+  background-color: #ffffff;
+  border: 1px solid #dee2e6;
+  border-top: 0;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  height: 330px;
+  overflow: auto;
+}
+
+.product-description p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 28px;
+  color: #9F9494;
+}
+
+.users h4 {
+  margin-bottom: 0;
+}
+
+/* similar product */
+.similar-product {
+  margin-top: 100px;
+}
+
+/* cart header */
+.cart-header h3 {
+  font-family: 'Lora';
+  font-weight: bold;
+}
+
+/* checkout */
+.checkout {
+  margin-top: 50px;
+}
+
+.checkout h5 {
+  font-size: 18px;
+}
+
+.checkout p {
+  font-size: 14px;
+  color: #9F9494;
+}
+
+.checkout .img-cart img {
+  width: 60px;
+  height: 60px;
+}
+
+.card {
+  width: 352px;
+  background-color: #F5F5F5;
+}
+
+/* hal success checkout */
+.success-checkout {
+  margin-top: 100px;
+}
+
+.success-checkout h3 {
+  font-family: 'Lora';
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 20px;
+  color: #171717;
+}
+
+.success-checkout .btn-detail {
+  margin-left: 415px;
+}
+
+/* desktop version */
+@media (min-width: 992px) {
+
+  .navbar {
+    opacity: 0.85;
+  }
+
+  .navDetails {
+    opacity: 1;
+  }
+
+  .jumbotron {
+    margin-top: -70px;
+  }
+
+  .categorys {
+    height: 850px;
+  }
+
+  .jumbotron .btn:hover {
+    animation: animasi 1s ease forwards;
+    border: 1px solid #E63737;
+  }
+
+  @keyframes animasi {
+    0% {
+      background-color: #E63737;
+    }
+
+    100% {
+      background: none;
+    }
+  }
+
+  @keyframes animasiB {
+    0% {
+      background: white;
+
+    }
+
+    100% {
+      background-color: #E63737;
+    }
+  }
+
+  .btn-fluid img:hover {
+    transform: scale(1.2);
+    opacity: .7;
+  }
+
+  .btn-fluid a {
+    opacity: 0;
+  }
+
+  .btn-fluid:hover a {
+    opacity: 1;
+    color: white;
+
+  }
+
+  .btn-fluid a:hover {
+    animation: animasi 1s ease forwards;
+    border: 1px solid #E63737;
+  }
+
+  .btn-product {
+    bottom: -45px;
+    transition: .5px;
+  }
+
+  .btn-product:hover {
+    transform: translateY(-45px);
+  }
+
+  .btn-cart:hover {
+    animation: animasi 1s ease forwards;
+    border: 1px solid #E63737;
+    color: #171717 !important;
+  }
+
+  .btn-list:hover {
+    animation: animasiB 1s ease forwards;
+    color: white !important;
+  }
+
+  .card {
+    margin-left: 100px;
+  }
+
+  .btn-card {
+    margin-left: 100px;
+  }
+
+  /* javascript */
+  .brands .brand,
+  .brands .title,
+  .categorys .category1,
+  .categorys .category2,
+  .categorys .title,
+  .products .title,
+  .products .product,
+  .testimonials {
+    opacity: 0;
+    transform: translateY(-40px);
+    transition: .5s;
+  }
+
+  .brands .brand.muncul,
+  .brands .title.muncul,
+  .categorys .category1.muncul,
+  .categorys .category2.muncul,
+  .categorys .title.muncul,
+  .products .title.muncul,
+  .products .product.muncul,
+  .testimonials.muncul {
+    opacity: 1;
+    transform: translateY(0);
+  }
+
+
+  .jumbotron h1,
+  .jumbotron p,
+  .jumbotron .btn {
+    opacity: 0;
+    transform: translateY(-40px);
+    transition: 1s;
+  }
+
+  .jumbotron h1.jMuncul,
+  .jumbotron p.jMuncul,
+  .jumbotron .btn.jMuncul {
+    opacity: 1;
+    transform: translateY(0);
+    transition: .5s;
+  }
+}
